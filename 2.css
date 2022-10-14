@@ -10,10 +10,11 @@ body {
     background-image: url(criptografia-de-dados.jpeg);
 }
 
-#tudo{
+#tudo {
     display: flex;
     justify-content: center;
 }
+
 .container {
     width: 400px;
     justify-content: center;

@@ -20,7 +20,7 @@ function cript() {
         var formulario = document.getElementById("texto").value;
         for (let i = 0; i < formulario.length; i++) {
             teste = (formulario[i].charCodeAt())
-            if (teste <= 65 || teste >= 123) {
+            if (teste <= 47 || teste >= 123) {
                 letras.push(String.fromCharCode(teste));
             }
             else {
@@ -52,7 +52,7 @@ function descript() {
         var formulario = document.getElementById("texto").value;
         for (let i = 0; i < formulario.length; i++) {
             teste = (formulario[i].charCodeAt())
-            if (teste <= 65 || teste >= 123) {
+            if (teste <= 47 || teste >= 123) {
                 letras.push(String.fromCharCode(teste));
             }
             else {
